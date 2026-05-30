@@ -1,6 +1,6 @@
 module github.com/lucanhost/flared
 
-go 1.26.3
+go 1.26
 
 require (
 	github.com/cloudflare/cloudflared v0.0.0-20260527101536-0e84636de945
