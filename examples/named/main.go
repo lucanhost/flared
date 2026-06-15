@@ -28,7 +28,7 @@ func main() {
 	opts := flared.Options{
 		OriginURL: "http://localhost:8082",
 		Name:      "my-demo-tunnel",     // Change to your desired tunnel name
-		Domain:    "api.example.com"     // Change to your actual domain on Cloudflare
+		Domain:    "api.example.com",    // Change to your actual domain on Cloudflare
 		ShowLog:   false,                // Set to true to see internal logs for debugging
 	}
 
